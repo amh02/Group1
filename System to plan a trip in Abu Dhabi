@@ -64,8 +64,3 @@ for index in range(len(days)):
     print("Option 2:", daysAnswer[1])
     print("Option 3:", daysAnswer[2])
     print("Option 3:", daysAnswer[3])
-
-
-
-
-
