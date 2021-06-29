@@ -1,0 +1,71 @@
+# Intro
+print("Hey! My name is Reem and I will be your online assistance today.")
+name = input("What is your name? ")
+print("Welcome "+name.capitalize()+" to the best trip planning in Abu Dhabi!")
+ask = input(name.capitalize()+" are you living in Abu Dhabi? [Y/N] ").upper()
+if ask == "Y":
+    print("We're glad to be part of your journey.\n")
+else:
+    print("Welcome to the Best Trip Planning Company in Abu Dhabi! We're glad to be part of your journey.\n")
+
+# type  of trip plans
+introQ = ["What type looking of trip plan in Abu Dhabi you are looking for? "]
+introP = ["For a family trip", "A honeymoon trip", "Trip with a friends"]
+answers = [introP]
+date = ()
+for index in range(len(introQ)):
+    Q = introQ[index]
+    print(Q)
+    Options = introP[index]
+    print("Option 1:", introP[0])
+    print("Option 2:", introP[1])
+    print("Option 3:", introP[2])
+    answers = int(input("Choose from the following options [1, 2 or 3]: "))
+    if answers == 1:
+        date = input("We wish you all the best in your vacation! Is your departure date fixed (Y/N)? ").upper()
+        if date == "Y":
+            date = input("Please mention your departure date. eg: 01 Aug ")
+            print("Can't wait to see you in Abu Dhabi!")
+        else:
+            print("\nThe best time to visit Abu Dhabi is between April and May or from September to October."
+                  "\nCheck your calender and book your fly to Abu Dhabi.")
+            break
+    elif answers == 2:
+        date = input("Wishing you the best! Is your departure date fixed (Y/N)? ").upper()
+        if date == "Y":
+            date = input("Please mention your departure date. eg: 01 Aug ")
+            print("Can't wait to see you in Abu Dhabi!")
+        else:
+            print("\nThe best time to visit Abu Dhabi is between April and May or from September to October."
+                  "\nCheck your calender and book your fly to Abu Dhabi.")
+            break
+    elif answers == 3:
+        date = input("Enjoy your time together! Is your departure date fixed (Y/N)? ").upper()
+        if date == "Y":
+            date = input("Please mention your departure date. eg: 01 Aug ")
+            print("Can't wait to see you in Abu Dhabi!")
+        else:
+            print("\nThe best time to visit Abu Dhabi is between April and May or from September to October."
+                  "\nCheck your calender and book your fly to Abu Dhabi.")
+            break
+    else:
+        print("\nSorry it seems you didn't choose one of the option."
+                "\nYou can email us if you got any question.")
+    break
+
+# Days
+days = ["\nFor how many days will your trip be?"]
+daysAnswer = ["3 days or less", "4 days", "A week", "More than a week"]
+for index in range(len(days)):
+    D = days[index]
+    print(D)
+    daysOptions = daysAnswer[index]
+    print("Option 1:", daysAnswer[0])
+    print("Option 2:", daysAnswer[1])
+    print("Option 3:", daysAnswer[2])
+    print("Option 3:", daysAnswer[3])
+
+
+
+
+
