@@ -8,5 +8,5 @@ Project Plan:
    - Beaches (Afra Al Shehhi)
    - Advanture (Amna Al Junaibi)
    - Restaurant (Mahra Al Junaibi)
-   - (Amna Al Yaagubi)
+   - Touristic Places (Amna Al Yaagubi)
 4. Sharing the trip plan with the user
